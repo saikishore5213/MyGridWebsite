@@ -1,0 +1,21 @@
+#main-navbar .social-icons{
+    display: none;
+}
+
+#home-articles h2{
+    text-align: center;
+}
+
+#home-articles .articles-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+#home-articles .articles-container article:first-child,
+#home-articles .articles-container article:last-child {
+    grid-template-columns: 1fr;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    /* grid-column:1; */
+}
+
